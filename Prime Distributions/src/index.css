@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer {
+  background: url(./images/footer.svg) top center no-repeat;
+  background-size: cover;
+}
+
+.cta {
+  background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) fixed center center;
+}
+
+/* Add this to your global CSS file, e.g., App.css */
+.gradient-empowering {
+  background: linear-gradient(to right, rgb(22, 45, 179), rgb(160, 165, 243));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-distribution {
+  background: linear-gradient(to right, #36364d, #0416bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.typing-effect::after {
+  content: '';
+  display: inline-block;
+  animation: typing 3s steps(20, end), blinking-dot 1s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blinking-dot {
+  0%, 100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn ease 1s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
