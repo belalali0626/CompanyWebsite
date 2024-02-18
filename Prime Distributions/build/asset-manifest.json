@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37790ed6.css",
+    "main.js": "/static/js/main.240ad0fe.js",
+    "static/media/toys.svg": "/static/media/toys.dc73cca4a54d115343cf57f75a06495d.svg",
+    "static/media/health.svg": "/static/media/health.d297b63f150acc8d3937d74c35d96b2e.svg",
+    "static/media/electronics.svg": "/static/media/electronics.25f5fe45e931e6eecd9c5b55043085c9.svg",
+    "static/media/beauty.svg": "/static/media/beauty.4a9753d4f2ffe9c744ce65341e8b2ce1.svg",
+    "static/media/appliances.svg": "/static/media/appliances.baebed64ff57b57cfb98c3f9b4dac6bd.svg",
+    "static/media/ebaylogo.png": "/static/media/ebaylogo.a354e95381152274dc4a.png",
+    "static/media/amazon.png": "/static/media/amazon.ae1f01456c34db70ee0c.png",
+    "static/media/support.svg": "/static/media/support.786d4c5b57f1eaf3a55f1392280b9c56.svg",
+    "static/media/retailExperience.svg": "/static/media/retailExperience.76d8d1ca26b62e659b5dac229c54f5ec.svg",
+    "static/media/footer.svg": "/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "index.html": "/index.html",
+    "main.37790ed6.css.map": "/static/css/main.37790ed6.css.map",
+    "main.240ad0fe.js.map": "/static/js/main.240ad0fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37790ed6.css",
+    "static/js/main.240ad0fe.js"
+  ]
+}
