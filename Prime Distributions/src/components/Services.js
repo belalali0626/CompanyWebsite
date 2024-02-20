@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import img from '../images/health.svg'; 
+import img from '../images/healthIllu.svg'; 
 import img2 from '../images/appliances.svg';
-import img3 from '../images/toys.svg';
+import img3 from '../images/toyIllu.svg';
 
 const Services = () => {
     return (

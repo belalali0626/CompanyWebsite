@@ -14,7 +14,7 @@ const Footer = () => {
                         <p className="text-md">
                             124 City Road<br />
                             London, EC1V 2NX<br />
-                            Contact: info@primedistribution.com
+                            Contact: sales@primedistribution.com
                         </p>
                     </div>
 

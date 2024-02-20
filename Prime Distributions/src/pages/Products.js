@@ -6,6 +6,9 @@ import healthSVG from '../images/health.svg';
 import toysSVG from '../images/toys.svg';
 import beautySVG from '../images/beauty.svg';
 import electronicsSVG from '../images/electronics.svg';
+import babySVG from '../images/baby.svg';
+import sportsSVG from '../images/sports.svg';
+import petsSVG from '../images/pets.svg';
 
 const Products = () => {
   useDocTitle('Prime Distribution - Products');
@@ -35,6 +38,24 @@ const Products = () => {
       description: 'Experience cutting-edge technology and innovation with Prime Distributions\' extensive collection of consumer electronics and home appliances. Stay connected and entertained with our range of smartphones, tablets, laptops, cameras, and accessories from leading brands. Transform your living space with our selection of home appliances, including essential kitchen appliances, state-of-the-art televisions, energy-efficient refrigerators, convenient washing machines, and powerful air conditioners designed to enhance your comfort and convenience. For tech enthusiasts and professionals, explore our electronic components, featuring essential circuit boards, reliable semiconductors, precision resistors, and versatile capacitors to support your electronic projects and endeavors.',
       imageUrl: electronicsSVG, // Replace with imported SVG
     },
+    {
+      id: 5,
+      name: 'Baby & Toddler Accessory',
+      description: 'Explore our curated collection of baby and toddler accessories designed for the little ones\' comfort and development. From ergonomic baby carriers and stylish diaper bags to educational toys and safety products, find everything you need to ensure your child\'s well-being and happiness.',
+      imageUrl: babySVG,
+    },
+    {
+      id: 6,
+      name: 'Sports & Fitness',
+      description: 'Unlock your full potential with our range of sports and fitness equipment. Whether you\'re a seasoned athlete or just starting out, our collection includes fitness gear, wearable tech, sports apparel, and equipment tailored to a wide variety of sports and activities.',
+      imageUrl: sportsSVG,
+    },
+    {
+      id: 7,
+      name: 'Pets Accessories',
+      description: 'Treat your pets to the best with our selection of pet accessories. From cozy beds and stylish collars to toys that keep them active and entertained, discover everything you need to pamper your furry, feathered, or scaled friends.',
+      imageUrl: petsSVG,
+    }
   ];
 
   return (
